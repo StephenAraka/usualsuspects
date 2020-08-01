@@ -1,0 +1,91 @@
+.ArtistsContainer {
+  /* background-color: #0e0e0e; */
+  background-color: #282828;
+  color: #ffffff;
+  padding: 3rem 6rem;
+  display: grid;
+  gap: 4rem;
+}
+
+.ArtistsIntro {
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+
+.ArtistsIntroHeading {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.ArtistsIntroDetails {
+  display: grid;
+  gap: 1rem;
+  font-size: 15px;
+}
+
+.ArtistsIntroDetails div {
+  padding: 0 8rem;
+}
+
+.ArtistsMidDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.ArtistsMidDetail {
+  text-align: center;
+}
+
+.ArtistsDetailHeading {
+  font-size: large;
+  font-weight: bold;
+  text-transform: none;
+  padding-top: 1rem;
+}
+
+.DetailDetails {
+  padding-top: 1rem;
+  color: #818181;
+}
+
+.ArtistPhoto img {
+  width: 10rem;
+}
+
+.ArtistsNumbers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AboutMetric {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+}
+
+.DescriptionSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.NumbersIcon {
+  width: 4rem;
+  height: 4rem;
+  fill: #818181;
+}
+
+.Number {
+  color: #930028;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.Label {
+  color: #818181;
+  text-transform: capitalize;
+}
