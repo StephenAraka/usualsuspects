@@ -1,5 +1,4 @@
 .WorkContainer {
-  /* background-color: #0e0e0e; */
   background-color: #282828;
   color: #ffffff;
   padding: 3rem 6rem;
@@ -56,4 +55,35 @@
 .GalleryImage img {
   width: 100%;
   height: 15rem;
+}
+
+.GalleryImage {
+  position: relative;
+}
+
+.ImageOverlay {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(14, 14, 14, 0.5);
+  transition: opacity .2s, visibility .2s;
+}
+
+.GalleryImage:hover .ImageOverlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.OverlayText {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: .5rem 2rem;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255, 0.3);
 }

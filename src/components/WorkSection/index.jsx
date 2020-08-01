@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './WorkSection.css';
 import guns from '../../assets/images/27guns.jpg';
 import guns2 from '../../assets/images/27guns2.jpg';
@@ -29,117 +29,140 @@ const WorkSection = () => {
     {
       src: guns,
       altText: '27_guns',
-      tag: ['all', 'film']
+      tag: ['all', 'film'],
+      text: '27 guns'
     },
     {
       src: guns2,
       altText: '27_guns',
-      tag: ['all', 'film']
+      tag: ['all', 'film'],
+      text: '27 guns'
     },
     {
       src: guns3,
       altText: '27_guns',
-      tag: ['all', 'film']
+      tag: ['all', 'film'],
+      text: '27 guns'
     },
     {
       src: guns4,
       altText: '27_guns',
-      tag: ['all', 'film']
+      tag: ['all', 'film'],
+      text: '27 guns'
     },
     {
       src: bornfree,
       altText: 'bornfree',
-      tag: ['all', 'concert']
+      tag: ['all', 'concert'],
+      text: 'born free'
     },
     {
       src: bornfree2,
       altText: 'bornfree',
-      tag: ['all', 'concert']
+      tag: ['all', 'concert'],
+      text: 'born free'
     },
     {
       src: bornfree3,
       altText: 'bornfree',
-      tag: ['all', 'concert']
+      tag: ['all', 'concert'],
+      text: 'born free'
     },
     {
       src: bornfree4,
       altText: 'bornfree',
-      tag: ['all', 'concert']
+      tag: ['all', 'concert'],
+      text: 'born free'
     },
     {
       src: bornfree5,
       altText: 'bornfree',
-      tag: ['all', 'concert']
+      tag: ['all', 'concert'],
+      text: 'born free'
     },
     {
       src: reporter1,
-      altText: 'bornfree',
-      tag: ['all', 'film']
+      altText: 'the_reporter',
+      tag: ['all', 'film'],
+      text: 'the reporter'
     },
     {
       src: reporter2,
-      altText: 'bornfree',
-      tag: ['all', 'film']
+      altText: 'the_reporter',
+      tag: ['all', 'film'],
+      text: 'the reporter'
     },
     {
       src: reporter3,
-      altText: 'bornfree',
-      tag: ['all', 'film']
+      altText: 'the_reporter',
+      tag: ['all', 'film'],
+      text: 'the reporter'
     },
     {
       src: reporter4,
-      altText: 'bornfree',
-      tag: ['all', 'film']
+      altText: 'the_reporter',
+      tag: ['all', 'film'],
+      text: 'the reporter'
     },
     {
       src: kimeralistening,
-      altText: 'kimeralistening',
-      tag: ['all', 'event']
+      altText: 'kimera_listening_party',
+      tag: ['all', 'event'],
+      text: 'kimera listening party'
     },
     {
       src: kimeralistening2,
-      altText: 'kimeralistening',
-      tag: ['all', 'event']
+      altText: 'kimera_listening_party',
+      tag: ['all', 'event'],
+      text: 'kimera listening party'
     },
     {
       src: kimeralistening3,
-      altText: 'kimeralistening',
-      tag: ['all', 'event']
+      altText: 'kimera_listening_party',
+      tag: ['all', 'event'],
+      text: 'kimera listening party'
     },
     {
       src: kimeralistening4,
-      altText: 'kimeralistening',
-      tag: ['all', 'event']
+      altText: 'kimera_listening_party',
+      tag: ['all', 'event'],
+      text: 'kimera listening party'
     },
     {
       src: kimeralistening5,
-      altText: 'kimeralistening',
-      tag: ['all', 'event']
+      altText: 'kimera_listening_party',
+      tag: ['all', 'event'],
+      text: 'kimera listening party'
     },
     {
       src: kimeralistening6,
-      altText: 'kimeralistening',
-      tag: ['all', 'event']
+      altText: 'kimera_listening_party',
+      tag: ['all', 'event'],
+      text: 'kimera listening party'
     },
     {
       src: musicShack,
-      altText: 'music_shack',
-      tag: ['all', 'event']
+      altText: 'the_music_shack',
+      tag: ['all', 'event'],
+      text: 'the music shack'
     },
     {
       src: musicShack2,
-      altText: 'music_shack',
-      tag: ['all', 'event']
+      altText: 'the_music_shack',
+      tag: ['all', 'event'],
+      text: 'the music shack'
     },
     {
       src: musicShack3,
-      altText: 'music_shack',
-      tag: ['all', 'event']
+      altText: 'the_music_shack',
+      tag: ['all', 'event'],
+      text: 'the music shack'
     },
     {
       src: musicShack4,
-      altText: 'music_shack',
-      tag: ['all', 'event']
+      altText: 'the_music_shack',
+      tag: ['all', 'event'],
+      text: 'the music shack'
     }
   ];
 
@@ -171,9 +194,15 @@ const WorkSection = () => {
               return (
                 <div key={images.indexOf(imageObject)} className="GalleryImage">
                   <img src={imageObject.src} alt={imageObject.altText} />
+                  <div className="ImageOverlay">
+                    <div className="OverlayText">
+                      {imageObject.text}
+                    </div>
+                  </div>
                 </div>
               );
             }
+            return null;
           })
         }
       </div>

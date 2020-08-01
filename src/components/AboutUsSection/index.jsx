@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../Header';
 import CountUp from 'react-countup';
 import './AboutUsSection.css';
 import { ReactComponent as Management } from '../../assets/images/talent-management.svg';

@@ -1,5 +1,4 @@
 import React from 'react';
-import coverPhoto from '../../assets/images/landing-image.jpg'
 import './LandingSection.css';
 
 const LandingSection = () => {
