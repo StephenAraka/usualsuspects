@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.jpeg';
 import './Header.css';
 
@@ -7,16 +6,16 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="LogoContainer">
-        <img src={logo} className="Logo" alt="logo" />
+        <a href="#home"><img src={logo} className="Logo" alt="logo" /></a>
       </div>
       <div className="LinksContainer">
-        <Link to="/" className="HeaderLink">home</Link>
-        <Link to="/" className="HeaderLink">about</Link>
-        <Link to="/" className="HeaderLink">team</Link>
-        <Link to="/" className="HeaderLink">artists</Link>
-        <Link to="/" className="HeaderLink">events</Link>
-        <Link to="/" className="HeaderLink">work</Link>
-        <Link to="/" className="HeaderLink">contact</Link>
+        <a href="#home" className="HeaderLink">home</a>
+        <a href="#about" className="HeaderLink">about</a>
+        <a href="#team" className="HeaderLink">team</a>
+        <a href="#artists" className="HeaderLink">artists</a>
+        <a href="#events" className="HeaderLink">events</a>
+        <a href="#work" className="HeaderLink">work</a>
+        <a href="#contacts" className="HeaderLink">contact</a>
       </div>
     </div>
   )

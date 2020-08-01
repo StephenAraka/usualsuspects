@@ -1,0 +1,24 @@
+.TeamsContainer {
+  background-color: #0e0e0e;
+  color: #ffffff;
+  padding: 3rem 6rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.TeamsIntro {
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+
+.TeamsIntroHeading {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.TeamsMidDetails {
+  justify-self: center;
+  width: 70%;
+}

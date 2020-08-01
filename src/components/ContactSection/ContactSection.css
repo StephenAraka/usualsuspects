@@ -1,0 +1,18 @@
+.ContactSection {
+  background-color: black;
+  padding: 2rem 0;
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+
+.ContactIcon {
+  cursor: pointer;
+  width: 2rem;
+  fill: white;
+}
+
+.ContactIcon:hover {
+  fill: #930028;
+}

@@ -5,6 +5,7 @@
   height: 4rem;
   display: flex;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .LogoContainer {
@@ -32,4 +33,5 @@
 
 .HeaderLink:hover {
   color: #930028;
+  text-decoration: none;
 }

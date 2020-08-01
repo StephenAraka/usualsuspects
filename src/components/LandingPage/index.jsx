@@ -5,25 +5,38 @@ import AboutUsSection from '../AboutUsSection';
 import ArtistsSection from '../ArtistsSection';
 import EventsSection from '../EventsSection';
 import WorkSection from '../WorkSection';
+import Footer from '../Footer';
+import TeamsSection from '../TeamSection';
+import ContactSection from '../ContactSection';
+import './Landing.css';
 
 const Landing = () => {
   return (
     <div className="HomePageContainer">
       <Header />
-      <div className="LandingPageSection">
+      <div id="home" className="LandingPageSection">
         <LandingSection />
       </div>
-      <div className="AboutUsSection">
-      <AboutUsSection />
+      <div id="about" className="AboutUsSection">
+        <AboutUsSection />
       </div>
-      <div className="ArtistsSection">
-      <ArtistsSection />
+      <div id="team" className="TeamSection">
+        <TeamsSection />
       </div>
-      <div className="EventsSection">
-      <EventsSection />
+      <div id="artists" className="ArtistsSection">
+        <ArtistsSection />
       </div>
-      <div className="EventsSection">
-      <WorkSection />
+      <div id="events" className="EventsSection">
+        <EventsSection />
+      </div>
+      <div id="work" className="WorkSection">
+        <WorkSection />
+      </div>
+      <div id="contacts" className="ContactsSection">
+        <ContactSection />
+      </div>
+      <div className="Footer">
+        <Footer />
       </div>
     </div>
   )
