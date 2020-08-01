@@ -1,7 +1,7 @@
 .TeamsContainer {
   background-color: #0e0e0e;
   color: #ffffff;
-  padding: 3rem 6rem;
+  padding: 3rem 6rem 1rem;
   display: grid;
   gap: 2rem;
 }

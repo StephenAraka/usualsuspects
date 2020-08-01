@@ -20,19 +20,19 @@ const Landing = () => {
       <div id="about" className="AboutUsSection">
         <AboutUsSection />
       </div>
-      <div id="team" className="TeamSection">
+      <div id="team" className="TeamSection PageSection">
         <TeamsSection />
       </div>
-      <div id="artists" className="ArtistsSection">
+      <div id="artists" className="ArtistsSection PageSection">
         <ArtistsSection />
       </div>
-      <div id="events" className="EventsSection">
+      <div id="events" className="EventsSection PageSection">
         <EventsSection />
       </div>
-      <div id="work" className="WorkSection">
+      <div id="work" className="WorkSection PageSection">
         <WorkSection />
       </div>
-      <div id="contacts" className="ContactsSection">
+      <div id="contacts" className="ContactsSection PageSection">
         <ContactSection />
       </div>
       <div className="Footer">

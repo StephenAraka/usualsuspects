@@ -15,3 +15,10 @@
   background-color: #0e0e0e;
   padding-top: 1rem;
 }
+
+.PageSection {
+  -webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
