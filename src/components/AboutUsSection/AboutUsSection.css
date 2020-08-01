@@ -50,11 +50,11 @@
 }
 
 .MidDetailIcon {
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
   background-color: #930028;
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .AboutUsNumbers {
