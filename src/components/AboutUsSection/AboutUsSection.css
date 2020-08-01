@@ -1,0 +1,94 @@
+.AboutUsContainer {
+  background-color: #282828;
+  color: #ffffff;
+  padding: 3rem 6rem;
+  display: grid;
+  gap: 4rem;
+}
+
+.AboutUsIntro {
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+
+.AboutUsIntroHeading {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.AboutUsIntroDetails {
+  display: grid;
+  gap: 1rem;
+  font-size: 15px;
+}
+
+.AboutUsIntroDetails div {
+  padding: 0 8rem;
+}
+
+.AboutUsMidDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.AboutUsMidDetail {
+  text-align: center;
+}
+
+.DetailHeading {
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.DetailDetails {
+  padding-top: 1rem;
+  color: #818181;
+}
+
+.MidDetailIcon {
+  width: 2rem;
+  height: 2rem;
+  background-color: #930028;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.AboutUsNumbers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AboutMetric {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+}
+
+.DescriptionSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.NumbersIcon {
+  width: 4rem;
+  height: 4rem;
+  fill: #818181;
+}
+
+.Number {
+  color: #930028;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.Label {
+  color: #818181;
+  text-transform: capitalize;
+}

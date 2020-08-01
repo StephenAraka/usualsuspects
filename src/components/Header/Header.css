@@ -1,0 +1,35 @@
+.Header {
+  background-color: #fffffa;
+  width: 100%;
+  position: fixed;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.LogoContainer {
+  height: 100%;
+}
+
+.Logo {
+  height: 100%;
+  padding-left: 5rem;
+}
+
+.LinksContainer {
+  padding-right: 5rem;
+  display: grid;
+  align-items: center;
+  grid-auto-flow: column;
+  gap: 3rem;
+}
+
+.HeaderLink {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #818181;
+}
+
+.HeaderLink:hover {
+  color: #930028;
+}

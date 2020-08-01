@@ -1,0 +1,14 @@
+@font-face {
+  font-family: calibri;
+  src: url("./assets/fonts/Calibri.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: calibri, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
